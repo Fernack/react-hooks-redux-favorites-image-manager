@@ -1,0 +1,36 @@
+.navbar {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+  box-shadow: 20px 20px 50px grey;
+}
+
+.navbar span {
+  white-space: nowrap;
+}
+
+.navbar .links > a {
+  margin-right: 20px;
+  color: white;
+  font-weight: 500;
+  
+}
+
+.navbar .links {
+  margin: 10px;
+  text-align: center;
+}
+
+.navbar .links > a.selected {
+  color: red;
+}
+
+
+
+@media screen and (min-width: 450px) { 
+  .navbar .links {
+    float: right;
+    margin: 0;
+  }
+}
